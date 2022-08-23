@@ -1,4 +1,4 @@
-public class MyFirstClass {
+public class Java1_MyFirstClass {
 
     // after you creature your project and class
     // you have to create your main method to run commands
