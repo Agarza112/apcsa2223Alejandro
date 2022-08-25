@@ -1,4 +1,4 @@
-package src;
+package Lessons2022;
 
 public class Java3_ArithmeicOperators0823022 {
     //  If you need to change the class name
