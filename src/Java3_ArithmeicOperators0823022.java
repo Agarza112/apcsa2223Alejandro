@@ -1,8 +1,6 @@
 package src;
 
-import java.security.spec.RSAOtherPrimeInfo;
-
-public class Java3_ArithmeicOperators {
+public class Java3_ArithmeicOperators0823022 {
     //  If you need to change the class name
     //  you can not do it directly
     //  use refractor option right clicking the class
