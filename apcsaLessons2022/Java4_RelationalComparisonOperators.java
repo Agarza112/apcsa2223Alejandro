@@ -1,4 +1,4 @@
-package Lessons2022;
+package apcsaLessons2022;
 
 public class Java4_RelationalComparisonOperators
 {
