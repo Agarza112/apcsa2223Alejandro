@@ -66,9 +66,9 @@ public class Java3_ArithmeicOperators0823022 {
 
         // IMPLICIT CASTING
         double d1 = 3000; // 3000 is a whole number which isn but since data type is double it return as double
-        long l = asdf;
+        long asdf = 0;
         System.out.println(d1);
-        System.out.println(l);
+        System.out.println(asdf);
 
         // EXPLICIT CASTING
         double price = 200.55;

@@ -1,5 +1,7 @@
 package apcsaWarmUps2223;
 
+import java.util.Scanner;
+
 public class Warmup912022
 {
     public static void main(String[] args)

@@ -1,5 +1,7 @@
 package apcsaLessons2022;
 
+import java.util.Scanner;
+
 public class Java7_IfStatements09012022
 {
     public static void main(String[] args)
@@ -30,21 +32,19 @@ public class Java7_IfStatements09012022
         Scanner scanner = new Scanner(System.in);
         int age = scanner.nextInt();
 
-        If(age>18)
+        If(age>18);
         {
             System.out.println("you are able to vote");
         }
-        else
         {
             System.out.println("you are able to vote");
         }
-        else
         {
             System.out.println("you can not vote");
         }
 
         System.out.println("please enter 3 different number");
-        Scanner scanner1 = new Scanner(system.in);
+        Scanner scanner1 = new Scanner(System.in);
         System.out.println("enter first number ");
         int number1 = scanner1.nextInt();
         System.out.println("enter second number ");
@@ -68,7 +68,7 @@ public class Java7_IfStatements09012022
         System.out.println("enter 2 number to check if they are equal or not");
         int n1 = scanner1.nextInt();
         int n2= scanner1.nextInt();
-        if(n1=-n2)
+        if(n1 == -n2)
         {
             System.out.println("they are equal");
         }
@@ -77,4 +77,7 @@ public class Java7_IfStatements09012022
             System.out.println("thy are not");
         }
 }
+
+    private static void If(boolean b) {
+    }
 }
