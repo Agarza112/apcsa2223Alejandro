@@ -2,6 +2,7 @@ package apcsaLessons2022;
 
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Collections;
 
 public class Java17_ArrayList10142022
 {
@@ -78,6 +79,31 @@ public class Java17_ArrayList10142022
         System.out.println(arr2.isEmpty());
         arr2.clear();
         System.out.println(arr2.isEmpty());
+
+        // ADD ALL METHOD
+        ArrayList<String> listA1 = new ArrayList<>();
+        listA1.add("first and only value");
+        String[] arrToA1 = {"this contains". "several"."values ", "you can ","also"," add more"};
+        listA1.addAll(Arrays.asList(arrToA1));
+        listA1.add("after adding  list of items");
+
+        System.out.println(listA1);
+
+        // REMOVE ALL METHOD
+        ArrayList<Integer> numbers = new ArrayList<>(Arrays.asList(1,1,2,3,4,4,4,4,4,5,5,56,9));
+        numbers.removeAll(Arrays.asList(1,4));
+        System.out.println(numbers);
+
+        // SORT METHOD
+        ArrayList<String> list = new ArrayList<>(Arrays.asList("Kris","Chris","Nat","Alex"));
+        System.out.println(list);
+        list.add("Nathen");
+        list.add("sebastion");
+        list.add("Trent");
+        System.out.println(list);
+        Collections.sort(list);
+        System.out.println(list);
+
 
 
     }
